@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://jossiwolf-blog.herokuapp.com",
+    "contentApiKey": "1715098ff59bc87c3a5e12c6fe5420cd00267d70c90d156f5c44d633c93cf1958a0055daec816b77c670268d992da081fbdc7c6f8060409fc61f3e16780a781f"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://jossiwolf-blog.herokuapp.com",
+    "contentApiKey": "1715098ff59bc87c3a5e12c6fe5420cd00267d70c90d156f5c44d633c93cf1958a0055daec816b77c670268d992da081fbdc7c6f8060409fc61f3e16780a781f"
   }
 }
