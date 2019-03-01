@@ -23,8 +23,6 @@ const Post = ({ data, location }) => {
     const reactHtml = Parser(post.html, {
         replace: (domNode) => {
             if (domNode.name === "script") {
-                console.log(domNode)
-                console.log(domNode.attribs.src)
                 const [_, username, gistId] = domNode.attribs.src.match(urlRegex)
                 return <Gist id={gistId}/>
             }
